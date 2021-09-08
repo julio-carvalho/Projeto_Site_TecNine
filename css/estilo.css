@@ -1,0 +1,153 @@
+/*Limpar formatações padrões*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+*** Layout ***
+*/
+#area-cabecalho {
+	background-color: #6A533E ;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu {
+	padding: 10px;
+}
+
+#area-principal {
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+}
+
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral {
+	width: 240px;
+	float: right;
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px solid #f4f4f4;
+}
+
+#rodape {
+	clear: both;
+	background: #CCC;
+	padding: 15px;
+	text-align: center;
+}
+
+
+
+/*
+*** Formatação do Menu***
+*/
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #F87C08;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+#area-menu a:link, #area-menu a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#area-menu a:hover {
+	color: #f7b600;
+	background: #FFF;
+	text-decoration: none;
+}
+
+/*
+*** Formatações Gerais ***
+*/
+h1 {
+	color: #F87C08;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #F87C08;
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+	text-align: center;
+}
+
+.branco {
+	color: white;
+}
+
+.data-postagem {
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 10px;
+	margin: 10px;
+	display: block;
+}
+
+img.logo {
+	float: left;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	width: 50px;
+	display: inline-block;
+}
+
+.postagem-contato {
+	float: left;
+	width: 500px;
+	padding: 10px;
+	background: white;
+}
+
+.hover01 figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover01 figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+
